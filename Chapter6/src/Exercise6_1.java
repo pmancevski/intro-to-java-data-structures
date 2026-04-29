@@ -1,4 +1,4 @@
-public class Chapter6_1 {
+public class Exercise6_1 {
     public static void main(String[] args) {
 
         for (int count = 1; count <= 100; count++) {
