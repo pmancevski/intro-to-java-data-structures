@@ -1,6 +1,7 @@
 // I butchered this exercise :) but it works xD
 public class Exercise6_24 {
     public static void main(String[] args) {
+
         System.out.println("Current date/time is: " + formatDateTime());
     }
 
@@ -11,7 +12,12 @@ public class Exercise6_24 {
                 + (String.valueOf(getCurrentMonth()).length() == 1 ? "0" + getCurrentMonth() : getCurrentMonth())
                 + "-" + (String.valueOf(getCurrentDay()).length() == 1 ? "0" + getCurrentDay() : getCurrentDay());
         //format time
-        returnString += "T" + getCurrentHours() + ":" + getCurrentMinutes() + ":" + getCurrentSeconds() + " GMT";
+        returnString += "T" + (String.valueOf(Exercise6_24.getCurrentHours()).length() == 1 ? "0" + Exercise6_24.getCurrentHours()
+                    : Exercise6_24.getCurrentHours()) + ":"
+                + (String.valueOf(Exercise6_24.getCurrentMinutes()).length() == 1 ? "0" + Exercise6_24.getCurrentMinutes()
+                    : Exercise6_24.getCurrentMinutes()) + ":"
+                + (String.valueOf(Exercise6_24.getCurrentSeconds()).length() == 1 ? "0" + Exercise6_24.getCurrentSeconds()
+                    : Exercise6_24.getCurrentSeconds()) + " GMT";
 
         return returnString;
     }
