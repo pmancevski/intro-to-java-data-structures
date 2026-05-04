@@ -22,5 +22,6 @@ public class Exercise7_12 {
         for (int count = 0; count < array.length; count++){
             System.out.print(array[count] + " ");
         }
+        System.out.println();
     }
 }
