@@ -1,6 +1,6 @@
 package Exercise10_5;
 
-import Listings.StackOfIntegers;
+import Utils.StackOfIntegers;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,7 +1,7 @@
 package Exercise10_6;
 
 import Exercise10_3.MyInteger;
-import Listings.StackOfIntegers;
+import Utils.StackOfIntegers;
 
 public class App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Listings;
+package Utils;
 
 public class StackOfIntegers {
     private int[] elements;
