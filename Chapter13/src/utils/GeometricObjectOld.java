@@ -2,16 +2,16 @@ package utils;
 
 import java.util.Date;
 
-public abstract class GeometricObject implements Comparable<GeometricObject> {
+public abstract class GeometricObjectOld {
     private String color;
     private boolean filled;
     private Date dateCreated;
 
-    protected GeometricObject() {
+    protected GeometricObjectOld() {
         dateCreated = new Date();
     }
 
-    protected GeometricObject(String color, boolean filled) {
+    protected GeometricObjectOld(String color, boolean filled) {
         dateCreated = new Date();
         this.color = color;
         this.filled = filled;
@@ -45,21 +45,4 @@ public abstract class GeometricObject implements Comparable<GeometricObject> {
     public abstract double getPerimeter();
 
     public abstract double getArea();
-
-    @Override
-    public int compareTo(GeometricObject o) {
-        if (this.getArea() > o.getArea()) {
-            return 1;
-        }
-        else if (this.getArea() < o.getArea()) {
-            return -1;
-        }
-
-        return 0;
-    }
-
-    public static GeometricObject max(GeometricObject o1, GeometricObject o2) {
-        return o1.compareTo(o2) > 0 ? o1 : o2;
-    }
-
 }

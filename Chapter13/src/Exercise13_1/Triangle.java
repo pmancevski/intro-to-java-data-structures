@@ -1,8 +1,8 @@
 package Exercise13_1;
 
-import utils.GeometricObject;
+import utils.GeometricObjectOld;
 
-public class Triangle extends GeometricObject {
+public class Triangle extends GeometricObjectOld {
     private double side1;
     private double side2;
     private double side3;
