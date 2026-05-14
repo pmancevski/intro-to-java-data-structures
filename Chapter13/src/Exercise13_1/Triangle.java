@@ -55,12 +55,14 @@ public class Triangle extends GeometricObject {
     }
 
     @Override
+    public String toString() {
+        return super.toString() + "\nArea: " + getArea() + " Perimeter: " + getPerimeter();
+    }
+
+    @Override
     public double getPerimeter() {
         return side1 + side2 + side3;
     }
 
-    @Override
-    public String toString() {
-        return super.toString() + "\nArea: " + getArea() + " Perimeter: " + getPerimeter();
-    }
+
 }

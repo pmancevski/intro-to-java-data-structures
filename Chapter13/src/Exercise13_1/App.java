@@ -25,6 +25,7 @@ public class App {
         System.out.println("Perimeter: " + triangle.getPerimeter());
         System.out.println("Color: " + triangle.getColor());
         System.out.println("Filled: " + triangle.isFilled());
+
         System.out.println(triangle); // calls toString()
     }
 }
