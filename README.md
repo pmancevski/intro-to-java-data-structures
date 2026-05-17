@@ -48,3 +48,5 @@ Bonus:
 42. 2-4 Trees and B-Trees
 43. Red-Black Trees
 44. Testing Using JUnit
+
+* chapter 14, 15 and 16 are skipped.

@@ -9,9 +9,6 @@
 
   <name>intro-to-java-data-structures</name>
   <url>http://maven.apache.org</url>
-    <modules>
-        <module>Chapter14</module>
-    </modules>
 
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

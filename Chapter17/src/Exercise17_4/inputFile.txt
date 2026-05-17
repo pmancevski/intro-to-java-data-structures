@@ -1,0 +1,18 @@
+(Convert a text file into UTF) Write a program that reads lines of characters from
+a text file and writes each line as a UTF string into a binary file. Display the
+sizes of the text file and the binary file. Use the following command to run the
+program:
+java Exercise17_04 Welcome.java Welcome.utf
+
+Section 17.3
+*17.1 (Create a text file) Write a program to create a file named Exercise17_01.txt if
+it does not exist. Append new data to it if it already exists. Write 100 integers
+created randomly into the file using text I/O. Integers are separated by a space.
+Section 17.4
+*17.2 (Create a binary data file) Write a program to create a file named Exercise17_02
+.dat if it does not exist. Append new data to it if it already exists. Write 100 inte
+gers created randomly into the file using binary I/O.
+*17.3 (Sum all the integers in a binary data file) Suppose a binary data file named
+Exercise17_02.dat has been created from Programming Exercise 17.2 and its data
+are created using writeInt(int) in DataOutputStream. The file contains an
+unspecified number of integers. Write a program to find the sum of the integers.
