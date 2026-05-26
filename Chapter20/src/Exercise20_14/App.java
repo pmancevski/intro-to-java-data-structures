@@ -2,6 +2,7 @@ package Exercise20_14;
 
 import java.util.Stack;
 
+// not sure about this exercise maybe its wrong
 public class App {
     public static void main(String[] args) {
         String expression = "1 2 + 3 *";
