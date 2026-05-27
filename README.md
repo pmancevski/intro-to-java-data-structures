@@ -50,3 +50,4 @@ Bonus:
 44. Testing Using JUnit
 
 * chapter 14, 15 and 16 are skipped.
+* chapter 22 is skipped for now
