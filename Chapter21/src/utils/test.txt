@@ -1,0 +1,8 @@
+21.1 (Perform set operations on hash sets) Create two linked hash sets 5"George",
+"Jim", "John", "Blake", "Kevin", "Michael"6 and 5"George", "Katie",
+"Kevin", "Michelle", "Ryan"6 and find their union, difference, and intersec
+tion. (You can clone the sets to preserve the original sets from being changed by
+these set methods.)
+21.2 (Display nonduplicate words in ascending order) Write a program that reads
+words from a text file and displays all the nonduplicate words in ascending order.
+The text file is passed as a command-line argument.
